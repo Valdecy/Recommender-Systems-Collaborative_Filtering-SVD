@@ -1,5 +1,5 @@
 # Collaborative Filtering - SVD
-Collaborative Filtering: This approach, build a model from past behaviors, comparing items or users trough ratings, and in this case the SVD (Singular Value Decomposition) technique can extract k features that can be used to find similar users/items. The function returns: the predictions, the rmse (root mean square error), the U matrix (users relation to the features), the Sigma matrix (features matrix)and the V matrix (items relation to the features).
+Collaborative Filtering: This approach builds a model from past behaviors, comparing items or users trough ratings, and in this case the SVD (Singular Value Decomposition) technique can extract k features that can be used to find similar users/items. The function returns: the predictions, the rmse (root mean square error), the U matrix (users relation to the features), the Sigma matrix (features matrix)and the V matrix (items relation to the features).
 
 * Xdata = Dataset Attributes. A matrix with users ratings about a set of items.
 
