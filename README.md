@@ -9,4 +9,4 @@ Collaborative Filtering: This approach, build a model from past behaviors, compa
 
 * user_in_columns = Boolean that indicates if the user is in the column (user_in_column = True) then a user-user similarity is made, if (user_in_column = False) then an item-item similarity is performed instead. The default value is True.
 
-* graph = Boolean that indicates if the first 2 features be displayed (graph = True) or not (graph = False). The default value is True.
+* graph = Boolean that indicates if the first 2 features of the users and items will be displayed (graph = True) or not (graph = False). The default value is True.
