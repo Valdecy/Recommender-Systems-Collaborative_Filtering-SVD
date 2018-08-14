@@ -102,7 +102,7 @@ def decomposition(Xdata, mean_centering = "global", k = 2, user_in_columns = Tru
 
 ######################## Part 1 - Usage ####################################
 
-df = pd.read_csv('Python-DM-Recommender Systems-03-CF-03-SVD.txt', sep = '\t')
+df = pd.read_csv('Python-DM-Recommender Systems-CF-03-Regression-Latent Factors.txt', sep = '\t')
 X = df.iloc[:,1:]
 X = X.set_index(df.iloc[:,0]) # First column as row names
 
